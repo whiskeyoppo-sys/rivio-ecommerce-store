@@ -1,0 +1,11 @@
+{
+  "name": "rivio-ecommerce-store",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "backend",
+    "services/*",
+    "packages/*"
+  ]
+}
