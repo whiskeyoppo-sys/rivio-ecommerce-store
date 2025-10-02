@@ -1,0 +1,45 @@
+
+## 📦 Tech Stack
+
+- **Frontend**: Next.js 14, TypeScript, TailwindCSS
+- **Backend**: NestJS, Prisma ORM, JWT
+- **Database**: PostgreSQL, Redis
+- **Services**: Node.js microservices
+- **Infrastructure**: Docker, Kubernetes, Terraform
+- **Testing**: Jest, Playwright
+- **CI/CD**: GitHub Actions
+
+## 🛠️ Setup
+
+### Prerequisites
+- Node.js 18+
+- PNPM 8+
+- Docker & Docker Compose
+- PostgreSQL 15+
+- Redis 7+
+
+### Installation
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/rivio-ecommerce-store.git
+cd rivio-ecommerce-store
+
+# Install dependencies
+pnpm install
+
+# Setup environment
+cp .env.example .env
+# Edit .env with your configuration
+
+# Start infrastructure
+docker-compose up -d
+
+# Run migrations
+pnpm migrate
+
+# Seed database
+pnpm seed
+
+# Start development
+pnpm dev

@@ -1,0 +1,8 @@
+# Fully conceptualized - PNPM workspace configuration
+# Design choice: Organized monorepo structure for better code sharing
+
+packages:
+  - 'frontend'
+  - 'backend'
+  - 'services/*'
+  - 'packages/*'
