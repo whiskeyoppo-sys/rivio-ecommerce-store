@@ -1,8 +1,4 @@
-# Fully conceptualized - PNPM workspace configuration
-# Design choice: Organized monorepo structure for better code sharing
-
+# pnpm-workspace.yaml
 packages:
-  - 'frontend'
-  - 'backend'
-  - 'services/*'
   - 'packages/*'
+  - 'services/*'
